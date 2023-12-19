@@ -1,0 +1,4 @@
+S->a,A,b,B,C|a,b,B,C
+A->a,A|b,c,B|c,C,c,a|c,c,a|a
+B->b,c,B|c,C,c,a|c,c,a
+C->c,C|c

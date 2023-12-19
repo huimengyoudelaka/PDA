@@ -1,0 +1,21 @@
+from Grammar.grammar import Grammar
+
+
+print('******************文法初始化******************')
+grammar = Grammar('./grammar9.txt')
+grammar.printInfo()
+print('******************消除左递归******************')
+grammar.reduceLeftRecursion()
+grammar.printInfo()
+print('******************消除空产生式******************')
+grammar.reduceNull()
+grammar.printInfo()
+print('******************消除单一产生式******************')
+grammar.reduceSingle()
+grammar.printInfo()
+print('******************消除无用符号******************')
+grammar.reduceUnuseful()
+grammar.printInfo()
+print('******************构造Greibach范式******************')
+grammar.generateGreibach()
+grammar.printInfo()

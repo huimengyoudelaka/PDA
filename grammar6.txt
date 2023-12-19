@@ -1,0 +1,4 @@
+S->a,A,b,B,C|ε
+A->a,A|B|ε
+B->b,c,B|C,c,a
+C->c,C|c
